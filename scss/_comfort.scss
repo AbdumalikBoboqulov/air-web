@@ -1,0 +1,57 @@
+.comfort {
+  background-color: $bac-main;
+  padding-top: 57px;
+}
+.comfort_ {
+  margin-top: 112px;
+  display: flex;
+  gap: 152px;
+
+  .comfort_right {
+    @include flex;
+    justify-content: center;
+    row-gap: 50px;
+  }
+  .comfort_right_top {
+    h2 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 120%;
+      max-width: 546px;
+      color: $text-fff;
+    }
+    p {
+      font-size: 16px;
+      color: $text-fff;
+      padding-top: 18px;
+      line-height: 120%;
+      max-width: 550px;
+    }
+  }
+  .comfort_right_button {
+    display: flex;
+    .comfort_right_button_left {
+      img {
+        width: 45px;
+        padding: 12px;
+        border: 1px solid #000;
+        border-radius: 4px;
+      }
+      h6 {
+        font-size: 18px;
+        color: $text-fff;
+        font-weight: 700;
+        line-height: 120%;
+        max-width: 265px;
+        padding-top: 12px;
+      }
+      p {
+        font-size: 16px;
+        color: $text-fff;
+        line-height: 120%;
+        max-width: 265px;
+        padding-top: 12px;
+      }
+    }
+  }
+}

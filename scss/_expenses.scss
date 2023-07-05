@@ -1,0 +1,49 @@
+.expenses_table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 112px;
+  .expenses_left_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 32px;
+    gap: 24px;
+  }
+  .expenses_left_text {
+    h3 {
+      font-size: 48px;
+      max-width: 686px;
+      font-weight: 700;
+      line-height: 120%;
+    }
+    p {
+      font-size: 16px;
+      color: $text-color;
+      line-height: 120%;
+      padding-top: 24px;
+      max-width: 700px;
+    }
+  }
+  .expenses_left_grid_1 {
+    i {
+      color: $bac-btn;
+    }
+    h5 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 140%;
+      padding-top: 16px;
+    }
+    p {
+      font-size: 18px;
+      color: $text-color;
+      font-weight: 400;
+      padding-top: 16px;
+      line-height: 120%;
+      max-width: 306px;
+    }
+  }
+  .expenses_right {
+    padding-top: 130px;
+  }
+}

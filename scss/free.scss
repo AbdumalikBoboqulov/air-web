@@ -1,0 +1,47 @@
+.free {
+  background-color: $bac-btn;
+  margin-top: 96px;
+  padding-bottom: 96px;
+  .free_top {
+    h2 {
+      font-size: 48px;
+      color: $text-fff;
+      font-weight: 700;
+      line-height: 120%;
+      padding-top: 96px;
+    }
+    p {
+      font-size: 16px;
+      color: $text-fff;
+      line-height: 120%;
+      max-width: 586px;
+      padding-top: 32px;
+      text-align: center;
+      padding-bottom: 32px;
+    }
+  }
+  .free_button {
+    @include flex;
+    input {
+      padding: 16px 220px 16px 16px;
+      border: none;
+      border-radius: 4px;
+      background-color: $text-fff;
+    }
+    button {
+      padding: 16px 25px;
+      border-radius: 10px;
+      background-color: $color-bleck;
+      color: $text-fff;
+    }
+    p {
+      padding-top: 22px;
+      font-size: 16px;
+      line-height: 120%;
+      color: $text-fff;
+    }
+  }
+  .free_Sectioon {
+    @include flex;
+  }
+}

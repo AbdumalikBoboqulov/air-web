@@ -1,0 +1,41 @@
+.biography_section {
+  display: flex;
+  padding-top: 144px;
+
+  gap: 73px;
+  .biography_right {
+    padding: 48px 80px 48px 160px;
+    background: $bac-hero;
+  }
+  p {
+    font-size: 18px;
+    color: $text-color;
+    line-height: 120%;
+    max-width: 731px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .biography_right_button {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+
+    .biography_right_text {
+      h5 {
+        font-size: 20px;
+
+        font-weight: 500;
+        line-height: 120%;
+      }
+      img {
+        width: 157px;
+        padding-top: 10px;
+      }
+    }
+    .biography_right_icon {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+  }
+}

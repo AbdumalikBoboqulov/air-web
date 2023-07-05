@@ -1,0 +1,41 @@
+.New_section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  h3 {
+    padding-bottom: 64px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  .New_table {
+    display: flex;
+    gap: 32px;
+  }
+  .New_table_1 {
+    &:hover {
+      box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03),
+        0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+    }
+    .New_table_1_text {
+      padding: 32px;
+      .p {
+        font-size: 16px;
+        color: $text-color;
+        line-height: 120%;
+      }
+      h5 {
+        font-size: 24px;
+        max-width: 341px;
+        font-weight: 600;
+        padding-top: 24px;
+        line-height: 120%;
+      }
+      h4 {
+        font-size: 18px;
+        padding-top: 24px;
+        color: $text-color;
+        line-height: 120%;
+      }
+    }
+  }
+}
