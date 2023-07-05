@@ -1,11 +1,20 @@
 .biography_section {
   display: flex;
+  align-items: center;
   padding-top: 144px;
-
+  position: relative;
   gap: 73px;
+  .biography_left{
+    img{
+      width: 420px;
+    }
+  }
   .biography_right {
     padding: 48px 80px 48px 160px;
     background: $bac-hero;
+    position: absolute;
+    right: 20px;
+    z-index: -1;
   }
   p {
     font-size: 18px;
