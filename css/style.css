@@ -114,12 +114,14 @@ header .hero .hero_text .play img {
   font-size: 48px;
   font-weight: 700;
   line-height: 120%;
+  font-family: "Space Grotesk", sans-serif;
 }
 .info .info_top .info_top_1 p {
   font-size: 24px;
   color: #505056;
   font-weight: 500;
   line-height: 120%;
+  font-family: "Space Grotesk", sans-serif;
 }
 .info .info_button_text {
   display: flex;
@@ -178,7 +180,7 @@ header .hero .hero_text .play img {
 
 .comfort {
   background-color: #1f2029;
-  padding: 112px 0;
+  padding: 112px 0 0 0;
 }
 
 .comfort_ {
@@ -341,7 +343,7 @@ header .hero .hero_text .play img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  gap: 100px;
+  gap: 40px;
 }
 .price .price_big {
   padding: 32px;

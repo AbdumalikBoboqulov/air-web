@@ -3,6 +3,7 @@
   .info_top {
     display: flex;
     justify-content: space-between;
+
     .info_top_1 {
       @include flex;
       padding: 112px 0;
@@ -11,12 +12,14 @@
         font-size: 48px;
         font-weight: 700;
         line-height: 120%;
+        font-family: "Space Grotesk", sans-serif;
       }
       p {
         font-size: 24px;
         color: $text-color;
         font-weight: 500;
         line-height: 120%;
+        font-family: "Space Grotesk", sans-serif;
       }
     }
   }
